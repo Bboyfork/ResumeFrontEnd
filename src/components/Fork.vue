@@ -132,7 +132,8 @@
     },
     methods:{
       downFile(){
-        window.open("http://localhost:8081/resumeHome/getResume");
+        window.open("http://bboyfork.icu/resumeHome/getResume");
+        //window.open("http://localhost:8081/resumeHome/getResume");
       },
       copyTXT(str){
         //ios兼容性待测试 但应该是好使了 pc浏览器已支持
